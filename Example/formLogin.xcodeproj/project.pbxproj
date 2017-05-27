@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		7701216F2DE1F24C135501B1 /* Pods_formLogin_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B909332155FF412B94C2590 /* Pods_formLogin_Example.framework */; };
+		FF5321021ED9D23100E0BF85 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF5321041ED9D23100E0BF85 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BB482A795AFEF88D0022205B /* Pods-formLogin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-formLogin_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-formLogin_Example/Pods-formLogin_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CC188EB90DEAC1E3E930CC8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E37B9D6EE4173587A50C585E /* Pods_formLogin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_formLogin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5321031ED9D23100E0BF85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FF5321041ED9D23100E0BF85 /* Localizable.strings */,
 				607FACD41AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -250,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				FF5321021ED9D23100E0BF85 /* Localizable.strings in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -400,6 +404,14 @@
 				607FACDF1AFB9204008FA782 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		FF5321041ED9D23100E0BF85 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF5321031ED9D23100E0BF85 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

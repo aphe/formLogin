@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  ResponsiveTextField
+
+  Created by Afriyandi Setiawan on 5/21/17.
+  Copyright © 2017 Afriyandi Setiawan. All rights reserved.
+*/
+
+"FAILED" = "Failed";
+"CANNOT_EMPTY" = "Cannot Empty";
+"INVALID_EMAIL_FORMAT" = "Invalid Email Format";
