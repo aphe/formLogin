@@ -1,0 +1,22 @@
+{
+  "name": "formLogin",
+  "version": "0.1.0",
+  "summary": "A short description of formLogin.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/aphe/formLogin",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aphe": "afreeyandi@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/aphe/formLogin.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "formLogin/Classes/**/*"
+}

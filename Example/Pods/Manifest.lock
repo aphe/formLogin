@@ -1,0 +1,16 @@
+PODS:
+  - formLogin (0.1.0)
+
+DEPENDENCIES:
+  - formLogin (from `../`)
+
+EXTERNAL SOURCES:
+  formLogin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  formLogin: 6b93174d94a7c970193bce83b88f5c36da8ffab9
+
+PODFILE CHECKSUM: eedac89e475c11d783f8295abc828d6dcf78cadc
+
+COCOAPODS: 1.2.1

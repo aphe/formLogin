@@ -1,0 +1,6 @@
+framework module formLogin {
+  umbrella header "formLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}
